@@ -6,13 +6,13 @@ main{
 .header__container{
     width: 100%;
     height: 10vh;
-    background-color: #39424e;
+    background-color: #666AEB;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header-logo__text{
-    color: antiquewhite;
+    color: #FFF;
     font-size: 1.5rem;
-    margin-left: 0.5em;
 }
