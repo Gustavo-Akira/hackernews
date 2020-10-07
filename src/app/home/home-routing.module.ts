@@ -6,6 +6,7 @@ import { NewestComponent } from './newest/newest.component';
 const routes: Routes = [
   {component: HomeComponent,path:""},
   {component: NewestComponent, path:"newest"},
+  {component: NewestComponent,path:"newest/:id"},
   {component: CommentsComponent, path:"comments"}
 ];
 

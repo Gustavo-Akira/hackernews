@@ -1,6 +1,15 @@
 <main>
   <header class="header__container">
-    <h3 class="header-logo__text">Hacker News</h3>
+    <a href="/">
+      <h3 class="header-logo__text">Hacker News</h3>
+    </a>
+    <ul class="menu__container">
+      <li class="menu-item__container" *ngFor="let item of menus">
+        <a href="{{item.url}}">
+          {{item.title}}
+        </a>
+      </li>
+    </ul>
   </header>
   <router-outlet></router-outlet>
 </main>
