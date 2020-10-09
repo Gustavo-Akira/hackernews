@@ -33,7 +33,6 @@ export class NewestComponent implements OnInit {
         }); 
        }
     });
-    console.log(this.newestStories);
   }
 
 }

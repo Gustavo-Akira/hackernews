@@ -1,1 +1,6 @@
-<p>newest works!</p>
+<a *ngFor="let item of newestStories" href="{{item.url}}">
+    <div class="story__container">
+        <p>{{item.title}}</p>
+        <p>{{item.by}}</p>
+    </div>
+</a>

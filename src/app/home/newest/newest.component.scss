@@ -1,0 +1,23 @@
+a{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.story__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: calc(#{100% - 20%});
+}
+
+.story__container:hover{
+    transition: all;
+    transform: scale3d(1.1,1.1,1.5);
+}
+
