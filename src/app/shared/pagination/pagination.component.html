@@ -1,5 +1,5 @@
 <div class="pagination__container">
-    <div [ngClass]="{'active-page' : item === activePage}" class="pagination-item__container" *ngFor="let item of pages">
+    <div [ngClass]="{'active-page' : item === (activePage+1)}" class="pagination-item__container" *ngFor="let item of pages">
         <a href="/{{page}}/{{item-1}}">
             {{item}}
         </a>

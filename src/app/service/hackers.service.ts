@@ -19,4 +19,7 @@ export class HackersService {
   getStory(id: Number){
     return this.http.get(`${this.baseUrl}item/${id}.json`);
   }
+  getComments(){
+    return this.http.get(`${this.baseUrl}comments`);
+  }
 }

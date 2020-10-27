@@ -2,9 +2,5 @@
     {
         "title":"Newest",
         "url":"/newest"
-    },
-    {
-        "title":"Comments",
-        "url":"/comments"
     }
 ]
