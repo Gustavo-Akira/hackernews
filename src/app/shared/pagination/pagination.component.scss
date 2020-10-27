@@ -1,0 +1,25 @@
+.pagination__container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-item__container{
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.active-page{
+    background-color: #666AEB;
+}
+
+.active-page a{
+    color: #FFF;
+}

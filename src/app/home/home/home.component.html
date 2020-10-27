@@ -1,8 +1,7 @@
-<section class="story-list__container">
-    <div class="story-item__container" *ngFor="let story  of stories">
-        <a href="{{story.url}}" target="_blank">
-            <h1 class="story-title__text">{{story.title}}</h1>
-            <h2 class="story-autor__text">by: {{story.by}}</h2>
-        </a>
+<a *ngFor="let item of stories" href="{{item.url}}" target="_blank">
+    <div class="story__container">
+        <p>{{item.title}}</p>
+        <p>{{item.by}}</p>
     </div>
-</section>
+</a>
+<app-pagination page="top" [pages]="pages" [activePage]="page"></app-pagination>
